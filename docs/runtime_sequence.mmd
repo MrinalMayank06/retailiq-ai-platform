@@ -1,0 +1,20 @@
+sequenceDiagram
+    participant User
+    participant Azure as Azure App Service
+    participant API as FastAPI
+    participant Models as ML Layer
+    participant Agents as Agent Layer
+    participant DB as MongoDB
+
+    User->>Azure: request
+    Azure->>API: route to endpoint
+    alt Forecast
+        API->>Models: demand forecast
+    else Anomaly
+        API->>Models: anomaly check
+    else Agent
+        API->>Agents: support / sales / analytics
+    end
+    API->>DB: save operational log
+    API-->>Azure: response
+    Azure-->>User: JSON output

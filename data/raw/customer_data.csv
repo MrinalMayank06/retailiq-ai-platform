@@ -1,0 +1,501 @@
+Customer_ID,Age,Gender,Location,Region,Segment,Purchase_Frequency,Signup_Days,Discount_Sensitivity,Preferred_Channel
+C0001,27,Female,Jaipur,North,Budget,1.48,497,0.822,Mobile App
+C0002,31,Female,Bhopal,Central,Budget,0.84,638,0.733,Mobile App
+C0003,18,Female,Kochi,South,Budget,0.75,540,0.718,Mobile App
+C0004,21,Female,Pune,West,Regular,1.79,597,0.722,Mobile App
+C0005,39,Male,Ahmedabad,West,Regular,2.85,409,0.461,Mobile App
+C0006,25,Male,Kochi,South,Budget,0.53,749,0.882,Mobile App
+C0007,36,Male,Jaipur,North,Budget,0.58,763,0.817,Web
+C0008,48,Female,Mumbai,West,Regular,1.4,371,0.502,Web
+C0009,40,Female,Kochi,South,Premium,4.72,492,0.252,Mobile App
+C0010,25,Male,Patna,East,Loyal,5.13,698,0.471,Mobile App
+C0011,26,Female,Jaipur,North,Budget,0.89,794,0.733,Mobile App
+C0012,26,Other,Bhopal,Central,Premium,2.58,445,0.346,Mobile App
+C0013,33,Female,Surat,West,Premium,4.77,595,0.443,Mobile App
+C0014,40,Female,Pune,West,Loyal,3.44,103,0.553,Mobile App
+C0015,47,Male,Lucknow,North,Budget,1.34,391,0.659,Mobile App
+C0016,18,Other,Nagpur,West,Budget,0.84,771,0.675,Mobile App
+C0017,39,Male,Bengaluru,South,Budget,1.5,335,0.925,Web
+C0018,45,Female,Kochi,South,Regular,3.11,205,0.714,Mobile App
+C0019,35,Female,Nagpur,West,Regular,1.53,582,0.499,Mobile App
+C0020,28,Female,Indore,Central,Regular,2.24,411,0.579,Web
+C0021,23,Male,Delhi,North,Budget,0.9,880,0.683,Mobile App
+C0022,40,Male,Kochi,South,Budget,1.35,292,0.75,Mobile App
+C0023,23,Male,Chennai,South,Regular,1.73,47,0.649,Web
+C0024,18,Male,Jaipur,North,Budget,1.08,829,0.905,Mobile App
+C0025,30,Male,Pune,West,Budget,0.9,478,0.894,Mobile App
+C0026,18,Male,Delhi,North,Budget,0.42,390,0.872,Web
+C0027,33,Female,Ahmedabad,West,Budget,1.49,173,0.825,Web
+C0028,38,Female,Jaipur,North,Regular,2.84,570,0.706,Mobile App
+C0029,48,Male,Ahmedabad,West,Premium,3.58,701,0.306,Mobile App
+C0030,21,Male,Pune,West,Budget,0.6,804,0.714,Mobile App
+C0031,41,Male,Surat,West,Premium,5.18,213,0.211,Mobile App
+C0032,34,Male,Ahmedabad,West,Loyal,4.64,881,0.319,Mobile App
+C0033,37,Male,Noida,North,Budget,0.77,446,0.876,Mobile App
+C0034,22,Female,Kochi,South,Budget,1.46,484,0.726,Store
+C0035,22,Male,Raipur,Central,Loyal,3.39,425,0.308,Mobile App
+C0036,42,Male,Ranchi,East,Premium,4.71,169,0.186,Web
+C0037,36,Male,Ahmedabad,West,Budget,0.89,287,0.912,Store
+C0038,36,Female,Indore,Central,Premium,3.97,170,0.436,Web
+C0039,32,Male,Ranchi,East,Budget,0.43,760,0.832,Mobile App
+C0040,37,Male,Mumbai,West,Regular,1.75,890,0.618,Store
+C0041,32,Female,Coimbatore,South,Regular,1.62,593,0.453,Mobile App
+C0042,18,Female,Kolkata,East,Regular,3.09,307,0.696,Mobile App
+C0043,28,Female,Raipur,Central,Regular,3.08,317,0.597,Mobile App
+C0044,39,Female,Chennai,South,Regular,1.2,394,0.407,Mobile App
+C0045,33,Female,Bengaluru,South,Regular,1.31,536,0.471,Web
+C0046,44,Female,Kolkata,East,Budget,0.84,560,0.913,Mobile App
+C0047,34,Female,Kolkata,East,Regular,1.54,121,0.742,Mobile App
+C0048,37,Male,Chennai,South,Regular,2.29,448,0.701,Mobile App
+C0049,31,Other,Pune,West,Budget,0.53,580,0.696,Web
+C0050,34,Female,Mumbai,West,Budget,1.13,90,0.777,Store
+C0051,48,Female,Bhopal,Central,Regular,3.15,622,0.418,Mobile App
+C0052,47,Male,Chennai,South,Budget,1.28,753,0.914,Web
+C0053,30,Female,Gurgaon,North,Regular,2.43,67,0.701,Mobile App
+C0054,33,Male,Surat,West,Budget,0.95,110,0.716,Web
+C0055,39,Male,Delhi,North,Premium,4.36,566,0.443,Mobile App
+C0056,28,Male,Coimbatore,South,Premium,4.54,222,0.296,Mobile App
+C0057,34,Female,Pune,West,Regular,2.15,702,0.423,Web
+C0058,43,Male,Jabalpur,Central,Regular,1.13,592,0.638,Mobile App
+C0059,26,Female,Noida,North,Budget,0.75,638,0.729,Web
+C0060,21,Female,Noida,North,Regular,2.66,116,0.415,Mobile App
+C0061,21,Male,Pune,West,Budget,0.95,884,0.769,Mobile App
+C0062,27,Male,Guwahati,East,Budget,0.87,119,0.767,Mobile App
+C0063,40,Male,Guwahati,East,Budget,0.82,487,0.767,Store
+C0064,48,Male,Kolkata,East,Regular,1.86,749,0.413,Mobile App
+C0065,40,Female,Pune,West,Regular,2.73,160,0.598,Mobile App
+C0066,26,Other,Raipur,Central,Loyal,4.5,462,0.448,Mobile App
+C0067,29,Male,Bengaluru,South,Regular,2.75,407,0.706,Web
+C0068,18,Female,Nagpur,West,Regular,2.02,630,0.466,Mobile App
+C0069,37,Female,Mumbai,West,Loyal,4.72,604,0.598,Mobile App
+C0070,30,Female,Hyderabad,South,Loyal,3.24,65,0.571,Mobile App
+C0071,18,Other,Coimbatore,South,Budget,0.74,568,0.678,Store
+C0072,43,Male,Jaipur,North,Premium,5.41,762,0.266,Web
+C0073,28,Female,Jaipur,North,Premium,2.32,787,0.216,Web
+C0074,28,Female,Gurgaon,North,Budget,0.61,880,0.838,Store
+C0075,55,Female,Bengaluru,South,Budget,0.88,171,0.812,Web
+C0076,30,Male,Nagpur,West,Budget,0.61,408,0.802,Mobile App
+C0077,47,Female,Gurgaon,North,Regular,1.11,680,0.566,Mobile App
+C0078,38,Female,Kolkata,East,Premium,4.42,710,0.394,Mobile App
+C0079,39,Male,Noida,North,Premium,4.67,373,0.437,Mobile App
+C0080,45,Female,Indore,Central,Premium,3.78,283,0.188,Web
+C0081,26,Male,Guwahati,East,Premium,4.91,821,0.29,Mobile App
+C0082,38,Other,Bengaluru,South,Budget,0.73,684,0.929,Mobile App
+C0083,28,Female,Raipur,Central,Loyal,4.91,890,0.443,Web
+C0084,28,Female,Nagpur,West,Premium,3.24,124,0.432,Mobile App
+C0085,25,Female,Jaipur,North,Budget,1.44,699,0.708,Mobile App
+C0086,26,Female,Ahmedabad,West,Budget,1.46,151,0.726,Web
+C0087,18,Male,Delhi,North,Regular,1.46,180,0.538,Mobile App
+C0088,36,Male,Guwahati,East,Premium,3.56,200,0.369,Mobile App
+C0089,46,Female,Noida,North,Budget,0.72,476,0.73,Web
+C0090,25,Male,Mumbai,West,Regular,2.41,379,0.698,Mobile App
+C0091,34,Female,Kochi,South,Regular,2.72,170,0.707,Mobile App
+C0092,33,Female,Jaipur,North,Budget,0.96,681,0.924,Web
+C0093,40,Female,Mumbai,West,Loyal,5.55,114,0.394,Mobile App
+C0094,34,Female,Kochi,South,Loyal,5.43,277,0.327,Mobile App
+C0095,39,Female,Patna,East,Budget,1.35,669,0.665,Web
+C0096,61,Male,Ranchi,East,Premium,5.36,800,0.309,Mobile App
+C0097,27,Male,Gurgaon,North,Loyal,6.89,145,0.309,Web
+C0098,44,Female,Jaipur,North,Loyal,6.1,108,0.433,Mobile App
+C0099,31,Male,Chennai,South,Regular,1.57,796,0.516,Mobile App
+C0100,26,Female,Lucknow,North,Regular,2.25,695,0.614,Mobile App
+C0101,22,Female,Ahmedabad,West,Budget,0.85,866,0.873,Mobile App
+C0102,19,Male,Guwahati,East,Loyal,3.29,441,0.423,Store
+C0103,43,Female,Coimbatore,South,Budget,0.5,871,0.87,Mobile App
+C0104,28,Male,Kochi,South,Regular,1.51,175,0.697,Web
+C0105,39,Male,Kochi,South,Regular,2.16,846,0.471,Store
+C0106,40,Male,Jabalpur,Central,Loyal,5.24,412,0.512,Mobile App
+C0107,18,Male,Lucknow,North,Budget,0.89,627,0.656,Web
+C0108,43,Male,Patna,East,Budget,0.57,86,0.672,Store
+C0109,41,Male,Patna,East,Budget,1.13,668,0.798,Mobile App
+C0110,18,Male,Pune,West,Budget,1.11,69,0.864,Web
+C0111,37,Male,Delhi,North,Regular,2.81,789,0.406,Store
+C0112,38,Male,Raipur,Central,Loyal,5.46,693,0.509,Mobile App
+C0113,32,Female,Surat,West,Regular,3.13,115,0.477,Mobile App
+C0114,31,Male,Chennai,South,Premium,3.05,217,0.177,Web
+C0115,40,Female,Ranchi,East,Premium,3.92,629,0.345,Web
+C0116,37,Male,Lucknow,North,Regular,1.31,455,0.498,Mobile App
+C0117,48,Male,Lucknow,North,Budget,0.9,773,0.809,Web
+C0118,35,Male,Surat,West,Loyal,6.15,396,0.265,Mobile App
+C0119,44,Male,Noida,North,Budget,0.42,661,0.794,Web
+C0120,38,Female,Kolkata,East,Budget,1.42,852,0.801,Mobile App
+C0121,28,Male,Ranchi,East,Loyal,3.8,378,0.342,Mobile App
+C0122,23,Female,Patna,East,Regular,1.47,333,0.573,Web
+C0123,18,Female,Pune,West,Loyal,4.37,332,0.312,Store
+C0124,18,Male,Kochi,South,Budget,0.66,42,0.708,Web
+C0125,34,Female,Gurgaon,North,Budget,1.49,177,0.744,Mobile App
+C0126,24,Female,Ahmedabad,West,Budget,0.5,407,0.847,Mobile App
+C0127,36,Male,Noida,North,Budget,0.45,688,0.778,Mobile App
+C0128,32,Female,Hyderabad,South,Budget,0.57,315,0.897,Mobile App
+C0129,41,Female,Noida,North,Regular,2.29,187,0.597,Web
+C0130,40,Male,Guwahati,East,Budget,0.53,739,0.747,Web
+C0131,46,Male,Raipur,Central,Regular,3.03,671,0.732,Web
+C0132,37,Female,Indore,Central,Budget,0.47,392,0.847,Web
+C0133,38,Male,Coimbatore,South,Regular,1.13,242,0.469,Mobile App
+C0134,39,Male,Pune,West,Regular,2.15,330,0.55,Web
+C0135,33,Male,Kolkata,East,Budget,0.96,116,0.834,Web
+C0136,37,Male,Pune,West,Regular,1.75,513,0.711,Store
+C0137,42,Male,Surat,West,Regular,1.09,238,0.655,Mobile App
+C0138,35,Male,Kochi,South,Regular,2.98,452,0.463,Mobile App
+C0139,37,Female,Guwahati,East,Loyal,4.05,753,0.451,Mobile App
+C0140,37,Male,Pune,West,Budget,1.16,534,0.671,Mobile App
+C0141,30,Female,Jaipur,North,Premium,2.39,54,0.278,Store
+C0142,40,Male,Jaipur,North,Premium,4.4,465,0.26,Mobile App
+C0143,18,Male,Kochi,South,Budget,0.56,128,0.858,Mobile App
+C0144,43,Male,Indore,Central,Budget,0.48,71,0.653,Web
+C0145,39,Female,Kolkata,East,Regular,2.96,820,0.504,Mobile App
+C0146,47,Female,Patna,East,Regular,2.16,877,0.469,Mobile App
+C0147,33,Female,Gurgaon,North,Regular,2.82,389,0.644,Mobile App
+C0148,18,Female,Jabalpur,Central,Budget,0.99,410,0.771,Mobile App
+C0149,38,Male,Pune,West,Regular,1.22,43,0.638,Mobile App
+C0150,26,Male,Patna,East,Regular,2.9,668,0.418,Store
+C0151,18,Male,Guwahati,East,Budget,0.77,197,0.891,Store
+C0152,23,Male,Raipur,Central,Regular,2.8,74,0.733,Store
+C0153,33,Female,Jabalpur,Central,Regular,1.92,895,0.693,Web
+C0154,33,Female,Guwahati,East,Regular,1.33,217,0.621,Web
+C0155,35,Male,Raipur,Central,Regular,1.03,70,0.519,Web
+C0156,43,Male,Kochi,South,Budget,0.95,873,0.858,Mobile App
+C0157,41,Female,Nagpur,West,Premium,2.34,443,0.155,Mobile App
+C0158,50,Male,Patna,East,Regular,3.04,749,0.468,Web
+C0159,35,Female,Hyderabad,South,Regular,2.44,409,0.431,Mobile App
+C0160,33,Female,Kochi,South,Premium,2.97,387,0.396,Web
+C0161,47,Female,Patna,East,Budget,1.31,330,0.719,Mobile App
+C0162,47,Female,Hyderabad,South,Budget,1.38,328,0.789,Mobile App
+C0163,47,Female,Patna,East,Premium,4.84,88,0.276,Store
+C0164,43,Male,Chennai,South,Regular,2.85,423,0.572,Mobile App
+C0165,26,Female,Kolkata,East,Regular,2.04,537,0.686,Web
+C0166,46,Female,Bhubaneswar,East,Budget,0.66,772,0.935,Web
+C0167,30,Male,Ahmedabad,West,Budget,1.36,336,0.894,Mobile App
+C0168,18,Male,Indore,Central,Budget,1.35,178,0.654,Mobile App
+C0169,33,Male,Lucknow,North,Premium,5.15,725,0.25,Mobile App
+C0170,18,Male,Pune,West,Regular,1.38,187,0.472,Web
+C0171,27,Male,Pune,West,Premium,5.07,541,0.346,Web
+C0172,31,Female,Bhopal,Central,Regular,3.18,304,0.417,Mobile App
+C0173,43,Male,Kochi,South,Budget,0.51,498,0.858,Web
+C0174,50,Female,Ahmedabad,West,Loyal,5.72,757,0.271,Web
+C0175,44,Male,Coimbatore,South,Budget,0.6,696,0.858,Mobile App
+C0176,40,Male,Raipur,Central,Budget,0.46,549,0.79,Mobile App
+C0177,43,Male,Kolkata,East,Premium,3.09,689,0.28,Mobile App
+C0178,33,Male,Gurgaon,North,Budget,0.81,212,0.746,Mobile App
+C0179,30,Female,Hyderabad,South,Regular,1.23,804,0.595,Web
+C0180,26,Female,Chennai,South,Budget,0.7,428,0.699,Web
+C0181,22,Male,Noida,North,Loyal,5.47,785,0.591,Mobile App
+C0182,35,Male,Chennai,South,Loyal,6.87,572,0.497,Mobile App
+C0183,31,Male,Ahmedabad,West,Regular,2.88,177,0.403,Mobile App
+C0184,22,Male,Kolkata,East,Regular,1.46,543,0.565,Web
+C0185,27,Female,Bhopal,Central,Budget,0.59,193,0.89,Store
+C0186,37,Female,Patna,East,Budget,0.41,158,0.941,Mobile App
+C0187,43,Female,Bengaluru,South,Regular,2.43,562,0.687,Mobile App
+C0188,48,Male,Bengaluru,South,Budget,0.47,791,0.698,Mobile App
+C0189,29,Female,Guwahati,East,Regular,3.15,601,0.486,Web
+C0190,35,Male,Noida,North,Premium,4.5,543,0.177,Mobile App
+C0191,22,Male,Pune,West,Regular,1.31,362,0.532,Store
+C0192,32,Male,Surat,West,Regular,2.4,230,0.557,Mobile App
+C0193,32,Male,Indore,Central,Budget,0.51,230,0.799,Mobile App
+C0194,56,Female,Bengaluru,South,Loyal,5.93,550,0.536,Mobile App
+C0195,18,Male,Raipur,Central,Budget,1.07,434,0.848,Mobile App
+C0196,32,Female,Jabalpur,Central,Premium,3.74,424,0.227,Web
+C0197,37,Female,Jabalpur,Central,Premium,4.33,34,0.227,Mobile App
+C0198,35,Male,Jaipur,North,Regular,1.36,422,0.467,Mobile App
+C0199,28,Male,Raipur,Central,Regular,1.09,547,0.42,Store
+C0200,40,Male,Gurgaon,North,Premium,5.03,180,0.256,Mobile App
+C0201,28,Male,Delhi,North,Budget,0.74,500,0.864,Mobile App
+C0202,53,Male,Raipur,Central,Regular,2.49,96,0.402,Mobile App
+C0203,45,Female,Jaipur,North,Budget,1.2,691,0.709,Mobile App
+C0204,38,Male,Delhi,North,Budget,1.24,367,0.928,Web
+C0205,43,Female,Bengaluru,South,Premium,4.67,59,0.249,Mobile App
+C0206,28,Male,Jaipur,North,Premium,3.8,691,0.18,Store
+C0207,26,Female,Kochi,South,Budget,1.39,292,0.684,Store
+C0208,39,Male,Kolkata,East,Budget,0.44,441,0.82,Mobile App
+C0209,24,Female,Coimbatore,South,Budget,1.24,186,0.828,Mobile App
+C0210,29,Male,Bengaluru,South,Budget,0.44,450,0.842,Mobile App
+C0211,55,Male,Pune,West,Regular,3.13,787,0.409,Mobile App
+C0212,28,Female,Gurgaon,North,Budget,1.06,899,0.814,Web
+C0213,35,Male,Lucknow,North,Budget,0.88,88,0.904,Web
+C0214,49,Male,Noida,North,Budget,0.79,851,0.806,Mobile App
+C0215,48,Female,Mumbai,West,Premium,2.31,843,0.299,Mobile App
+C0216,25,Female,Pune,West,Budget,1.04,448,0.858,Web
+C0217,32,Female,Mumbai,West,Budget,0.87,480,0.936,Mobile App
+C0218,39,Male,Guwahati,East,Loyal,6.9,206,0.276,Mobile App
+C0219,42,Female,Surat,West,Budget,0.98,897,0.805,Mobile App
+C0220,22,Male,Lucknow,North,Budget,1.08,146,0.908,Mobile App
+C0221,42,Male,Lucknow,North,Premium,4.04,413,0.319,Mobile App
+C0222,37,Female,Coimbatore,South,Budget,0.8,36,0.877,Web
+C0223,30,Female,Gurgaon,North,Loyal,6.17,110,0.351,Mobile App
+C0224,18,Female,Coimbatore,South,Budget,0.88,719,0.816,Mobile App
+C0225,22,Male,Kochi,South,Premium,4.67,862,0.3,Mobile App
+C0226,26,Female,Jaipur,North,Premium,5.02,774,0.343,Mobile App
+C0227,38,Female,Surat,West,Regular,2.56,734,0.664,Mobile App
+C0228,33,Male,Ahmedabad,West,Budget,0.96,695,0.901,Web
+C0229,52,Male,Nagpur,West,Premium,3.2,396,0.218,Store
+C0230,52,Female,Jaipur,North,Premium,3.91,447,0.428,Mobile App
+C0231,41,Male,Patna,East,Loyal,4.93,803,0.299,Mobile App
+C0232,37,Male,Coimbatore,South,Premium,4.73,417,0.425,Mobile App
+C0233,38,Male,Nagpur,West,Budget,0.76,622,0.949,Web
+C0234,25,Female,Kolkata,East,Budget,0.4,279,0.718,Mobile App
+C0235,36,Female,Nagpur,West,Regular,3.12,210,0.692,Mobile App
+C0236,43,Male,Delhi,North,Budget,1.06,615,0.897,Web
+C0237,40,Male,Pune,West,Budget,1.23,692,0.908,Web
+C0238,32,Male,Gurgaon,North,Regular,1.47,306,0.484,Mobile App
+C0239,22,Female,Patna,East,Budget,0.73,31,0.747,Mobile App
+C0240,42,Female,Kolkata,East,Budget,0.78,178,0.662,Mobile App
+C0241,28,Female,Chennai,South,Budget,0.87,739,0.855,Mobile App
+C0242,58,Female,Pune,West,Premium,4.95,411,0.293,Mobile App
+C0243,40,Male,Chennai,South,Premium,4.54,664,0.322,Web
+C0244,46,Male,Nagpur,West,Premium,5.03,878,0.225,Web
+C0245,18,Male,Delhi,North,Regular,2.02,381,0.725,Web
+C0246,38,Female,Gurgaon,North,Premium,4.28,106,0.395,Mobile App
+C0247,18,Male,Delhi,North,Premium,5.28,569,0.438,Web
+C0248,31,Male,Kochi,South,Budget,1.02,637,0.775,Web
+C0249,35,Male,Jaipur,North,Budget,1.09,892,0.691,Web
+C0250,34,Female,Nagpur,West,Premium,2.3,402,0.248,Mobile App
+C0251,18,Female,Ranchi,East,Regular,1.97,91,0.499,Store
+C0252,41,Female,Patna,East,Premium,3.6,559,0.331,Mobile App
+C0253,19,Male,Mumbai,West,Budget,0.43,151,0.747,Web
+C0254,20,Male,Gurgaon,North,Budget,0.85,352,0.776,Store
+C0255,22,Male,Noida,North,Loyal,5.65,63,0.467,Web
+C0256,29,Female,Noida,North,Budget,1.18,378,0.894,Mobile App
+C0257,30,Female,Surat,West,Regular,2.14,86,0.476,Mobile App
+C0258,36,Female,Kolkata,East,Premium,4.13,210,0.229,Mobile App
+C0259,38,Male,Gurgaon,North,Budget,0.61,321,0.713,Store
+C0260,18,Male,Ahmedabad,West,Budget,1.49,864,0.745,Web
+C0261,21,Male,Guwahati,East,Budget,0.56,627,0.709,Mobile App
+C0262,20,Male,Gurgaon,North,Regular,1.82,459,0.747,Web
+C0263,30,Female,Kochi,South,Budget,0.5,523,0.865,Mobile App
+C0264,26,Male,Delhi,North,Budget,0.69,190,0.82,Mobile App
+C0265,22,Male,Lucknow,North,Budget,1.39,701,0.849,Mobile App
+C0266,40,Male,Gurgaon,North,Regular,1.83,587,0.447,Web
+C0267,18,Male,Chennai,South,Regular,2.47,399,0.697,Store
+C0268,22,Male,Ahmedabad,West,Budget,0.53,726,0.923,Web
+C0269,29,Female,Gurgaon,North,Regular,1.34,288,0.655,Mobile App
+C0270,43,Female,Delhi,North,Budget,1.24,499,0.747,Mobile App
+C0271,44,Female,Mumbai,West,Regular,1.21,560,0.582,Mobile App
+C0272,18,Female,Chennai,South,Regular,2.06,465,0.535,Mobile App
+C0273,54,Female,Ahmedabad,West,Loyal,5.04,582,0.498,Mobile App
+C0274,41,Male,Lucknow,North,Regular,1.07,369,0.487,Mobile App
+C0275,43,Male,Lucknow,North,Loyal,4.12,890,0.337,Mobile App
+C0276,24,Female,Hyderabad,South,Loyal,5.22,381,0.565,Web
+C0277,28,Female,Surat,West,Regular,1.23,814,0.428,Mobile App
+C0278,25,Male,Delhi,North,Loyal,3.42,273,0.317,Mobile App
+C0279,26,Male,Jaipur,North,Regular,1.25,297,0.425,Mobile App
+C0280,23,Male,Noida,North,Budget,1.06,42,0.943,Web
+C0281,35,Male,Kochi,South,Premium,4.93,879,0.229,Mobile App
+C0282,27,Female,Hyderabad,South,Budget,0.98,200,0.79,Mobile App
+C0283,32,Male,Nagpur,West,Regular,2.79,792,0.567,Mobile App
+C0284,45,Other,Nagpur,West,Budget,0.41,66,0.919,Mobile App
+C0285,22,Female,Jaipur,North,Budget,1.05,192,0.827,Mobile App
+C0286,41,Female,Jaipur,North,Budget,0.78,897,0.889,Store
+C0287,34,Female,Mumbai,West,Premium,4.24,230,0.168,Web
+C0288,47,Female,Indore,Central,Budget,1.32,830,0.803,Web
+C0289,35,Female,Surat,West,Loyal,3.73,777,0.562,Mobile App
+C0290,53,Male,Patna,East,Premium,5.43,858,0.327,Mobile App
+C0291,20,Male,Lucknow,North,Regular,1.37,218,0.409,Mobile App
+C0292,28,Male,Raipur,Central,Budget,1.19,440,0.806,Mobile App
+C0293,31,Male,Delhi,North,Premium,3.1,458,0.263,Web
+C0294,33,Male,Mumbai,West,Budget,1.25,353,0.803,Mobile App
+C0295,34,Female,Chennai,South,Budget,0.66,363,0.899,Mobile App
+C0296,28,Female,Coimbatore,South,Budget,1.37,235,0.764,Store
+C0297,31,Female,Nagpur,West,Regular,1.33,609,0.547,Web
+C0298,18,Male,Delhi,North,Regular,2.99,182,0.573,Mobile App
+C0299,31,Female,Raipur,Central,Regular,1.53,784,0.439,Store
+C0300,45,Male,Lucknow,North,Budget,0.93,769,0.656,Mobile App
+C0301,32,Male,Bengaluru,South,Budget,0.75,566,0.687,Web
+C0302,36,Male,Gurgaon,North,Regular,2.61,693,0.482,Mobile App
+C0303,18,Male,Ranchi,East,Regular,2.9,486,0.41,Store
+C0304,39,Male,Coimbatore,South,Premium,2.21,269,0.381,Mobile App
+C0305,30,Female,Jabalpur,Central,Budget,1.29,748,0.661,Mobile App
+C0306,25,Female,Ahmedabad,West,Budget,0.49,171,0.887,Mobile App
+C0307,33,Male,Bhopal,Central,Regular,2.09,40,0.742,Mobile App
+C0308,35,Female,Jabalpur,Central,Loyal,3.87,375,0.356,Mobile App
+C0309,31,Female,Kochi,South,Budget,1.0,271,0.932,Mobile App
+C0310,33,Male,Delhi,North,Budget,0.89,769,0.666,Web
+C0311,23,Male,Jaipur,North,Regular,3.19,622,0.562,Mobile App
+C0312,24,Female,Raipur,Central,Loyal,6.67,138,0.393,Mobile App
+C0313,39,Female,Jabalpur,Central,Budget,0.74,653,0.693,Web
+C0314,41,Female,Ahmedabad,West,Premium,4.6,851,0.406,Mobile App
+C0315,37,Male,Patna,East,Regular,1.98,94,0.504,Mobile App
+C0316,29,Male,Bengaluru,South,Regular,1.43,331,0.452,Mobile App
+C0317,28,Female,Gurgaon,North,Budget,0.69,687,0.925,Web
+C0318,41,Male,Noida,North,Regular,2.71,623,0.555,Web
+C0319,18,Female,Ranchi,East,Regular,2.2,751,0.726,Mobile App
+C0320,23,Male,Kochi,South,Regular,2.56,471,0.556,Web
+C0321,26,Female,Hyderabad,South,Regular,3.02,425,0.512,Web
+C0322,36,Male,Kochi,South,Loyal,6.37,457,0.266,Mobile App
+C0323,27,Male,Nagpur,West,Regular,2.27,657,0.729,Mobile App
+C0324,40,Female,Kolkata,East,Premium,3.56,465,0.386,Mobile App
+C0325,46,Male,Surat,West,Premium,2.24,267,0.277,Mobile App
+C0326,31,Female,Delhi,North,Regular,1.44,373,0.43,Web
+C0327,32,Male,Hyderabad,South,Regular,2.71,490,0.483,Mobile App
+C0328,41,Female,Patna,East,Regular,2.5,242,0.609,Mobile App
+C0329,35,Female,Noida,North,Regular,1.5,571,0.642,Mobile App
+C0330,36,Male,Kolkata,East,Budget,1.37,803,0.687,Mobile App
+C0331,36,Male,Jabalpur,Central,Budget,1.22,195,0.767,Web
+C0332,32,Female,Guwahati,East,Premium,4.8,326,0.259,Web
+C0333,26,Female,Mumbai,West,Budget,1.48,567,0.885,Store
+C0334,25,Male,Lucknow,North,Budget,0.67,236,0.698,Mobile App
+C0335,25,Female,Kochi,South,Budget,1.09,292,0.825,Store
+C0336,39,Female,Jaipur,North,Budget,0.74,825,0.926,Mobile App
+C0337,28,Male,Kolkata,East,Budget,0.92,598,0.849,Mobile App
+C0338,44,Male,Pune,West,Regular,1.45,703,0.577,Store
+C0339,38,Male,Nagpur,West,Premium,3.64,709,0.152,Mobile App
+C0340,18,Male,Noida,North,Loyal,3.6,486,0.6,Mobile App
+C0341,43,Male,Lucknow,North,Loyal,6.27,515,0.461,Web
+C0342,25,Female,Kochi,South,Budget,0.96,176,0.801,Store
+C0343,33,Female,Jaipur,North,Regular,2.58,888,0.418,Store
+C0344,31,Female,Bengaluru,South,Regular,1.8,392,0.625,Mobile App
+C0345,52,Female,Gurgaon,North,Regular,1.36,102,0.46,Store
+C0346,45,Male,Patna,East,Premium,3.21,131,0.163,Store
+C0347,40,Female,Bhopal,Central,Budget,0.64,63,0.667,Mobile App
+C0348,22,Male,Raipur,Central,Budget,1.39,519,0.848,Web
+C0349,40,Female,Kochi,South,Regular,3.18,246,0.627,Mobile App
+C0350,43,Male,Surat,West,Regular,1.38,138,0.576,Web
+C0351,23,Female,Mumbai,West,Budget,0.42,125,0.833,Mobile App
+C0352,42,Male,Bengaluru,South,Premium,2.76,877,0.166,Web
+C0353,53,Female,Coimbatore,South,Budget,1.4,790,0.661,Web
+C0354,31,Female,Bhubaneswar,East,Regular,1.42,115,0.542,Web
+C0355,41,Male,Gurgaon,North,Regular,1.65,637,0.629,Mobile App
+C0356,23,Male,Noida,North,Budget,1.23,745,0.778,Mobile App
+C0357,43,Female,Coimbatore,South,Budget,1.36,828,0.913,Mobile App
+C0358,42,Female,Delhi,North,Premium,3.45,532,0.316,Mobile App
+C0359,45,Female,Coimbatore,South,Premium,5.47,489,0.316,Web
+C0360,36,Male,Ranchi,East,Loyal,4.0,321,0.389,Store
+C0361,42,Male,Bengaluru,South,Budget,1.1,538,0.694,Mobile App
+C0362,19,Female,Chennai,South,Budget,1.25,696,0.733,Mobile App
+C0363,51,Female,Delhi,North,Premium,5.21,315,0.421,Mobile App
+C0364,24,Male,Surat,West,Regular,2.98,392,0.674,Store
+C0365,36,Male,Delhi,North,Regular,1.56,266,0.477,Mobile App
+C0366,37,Male,Gurgaon,North,Budget,1.42,237,0.789,Mobile App
+C0367,18,Male,Jaipur,North,Regular,1.32,125,0.457,Mobile App
+C0368,55,Female,Noida,North,Premium,2.69,703,0.386,Mobile App
+C0369,47,Male,Raipur,Central,Premium,3.66,70,0.178,Web
+C0370,45,Female,Jaipur,North,Premium,3.09,851,0.284,Mobile App
+C0371,38,Male,Jaipur,North,Loyal,3.25,308,0.509,Mobile App
+C0372,18,Female,Jaipur,North,Regular,1.14,734,0.445,Store
+C0373,41,Female,Gurgaon,North,Budget,0.8,800,0.693,Mobile App
+C0374,50,Male,Surat,West,Budget,0.74,236,0.802,Web
+C0375,50,Male,Coimbatore,South,Premium,3.74,568,0.203,Mobile App
+C0376,24,Female,Chennai,South,Regular,3.01,526,0.684,Mobile App
+C0377,40,Male,Surat,West,Premium,2.2,77,0.33,Mobile App
+C0378,30,Male,Pune,West,Regular,1.77,875,0.506,Store
+C0379,36,Female,Coimbatore,South,Budget,1.43,331,0.708,Mobile App
+C0380,25,Female,Lucknow,North,Loyal,4.54,780,0.583,Mobile App
+C0381,39,Male,Bhubaneswar,East,Regular,2.29,884,0.72,Web
+C0382,37,Female,Indore,Central,Loyal,4.72,492,0.35,Mobile App
+C0383,40,Female,Noida,North,Regular,1.15,567,0.615,Web
+C0384,25,Male,Kochi,South,Regular,1.16,698,0.649,Mobile App
+C0385,18,Male,Ahmedabad,West,Regular,1.96,644,0.607,Mobile App
+C0386,42,Female,Lucknow,North,Premium,2.63,823,0.418,Mobile App
+C0387,20,Male,Ahmedabad,West,Regular,2.99,680,0.53,Mobile App
+C0388,26,Male,Delhi,North,Budget,1.25,538,0.81,Store
+C0389,38,Female,Ahmedabad,West,Budget,0.51,502,0.774,Mobile App
+C0390,43,Female,Raipur,Central,Regular,2.82,701,0.667,Mobile App
+C0391,42,Female,Jabalpur,Central,Regular,1.66,867,0.713,Store
+C0392,35,Male,Chennai,South,Premium,4.44,611,0.441,Mobile App
+C0393,42,Female,Surat,West,Premium,3.83,745,0.423,Mobile App
+C0394,48,Female,Coimbatore,South,Regular,2.76,438,0.478,Mobile App
+C0395,44,Female,Jaipur,North,Loyal,5.95,131,0.412,Web
+C0396,38,Female,Noida,North,Premium,4.38,630,0.378,Mobile App
+C0397,41,Male,Ahmedabad,West,Premium,2.45,320,0.388,Mobile App
+C0398,20,Male,Nagpur,West,Premium,2.72,335,0.388,Mobile App
+C0399,26,Male,Nagpur,West,Regular,2.13,121,0.516,Store
+C0400,36,Female,Jaipur,North,Budget,1.49,803,0.663,Web
+C0401,34,Male,Ranchi,East,Budget,1.21,531,0.865,Web
+C0402,44,Male,Noida,North,Regular,2.57,133,0.675,Web
+C0403,49,Female,Gurgaon,North,Premium,3.91,865,0.185,Mobile App
+C0404,28,Female,Gurgaon,North,Budget,0.91,83,0.738,Web
+C0405,27,Male,Coimbatore,South,Regular,2.91,465,0.661,Mobile App
+C0406,44,Female,Jabalpur,Central,Budget,0.67,742,0.816,Mobile App
+C0407,29,Male,Bhubaneswar,East,Budget,0.44,754,0.761,Mobile App
+C0408,36,Female,Surat,West,Regular,1.68,69,0.509,Mobile App
+C0409,40,Female,Kolkata,East,Premium,5.48,818,0.253,Mobile App
+C0410,42,Female,Ahmedabad,West,Budget,0.8,465,0.795,Mobile App
+C0411,46,Female,Kochi,South,Regular,2.8,884,0.455,Mobile App
+C0412,62,Other,Surat,West,Premium,2.6,773,0.373,Mobile App
+C0413,45,Male,Jaipur,North,Premium,2.59,826,0.287,Mobile App
+C0414,49,Male,Bhopal,Central,Budget,0.87,894,0.949,Web
+C0415,40,Female,Ranchi,East,Regular,1.5,795,0.6,Web
+C0416,60,Female,Bengaluru,South,Budget,0.94,380,0.926,Mobile App
+C0417,21,Male,Bhubaneswar,East,Budget,1.34,770,0.675,Mobile App
+C0418,65,Male,Lucknow,North,Budget,1.07,333,0.811,Mobile App
+C0419,18,Male,Nagpur,West,Regular,1.28,94,0.534,Mobile App
+C0420,38,Female,Noida,North,Premium,4.47,693,0.223,Web
+C0421,28,Male,Bengaluru,South,Regular,1.72,710,0.464,Mobile App
+C0422,32,Male,Ranchi,East,Regular,3.02,113,0.525,Mobile App
+C0423,24,Male,Delhi,North,Budget,1.16,37,0.917,Store
+C0424,26,Female,Coimbatore,South,Regular,3.18,637,0.551,Mobile App
+C0425,59,Male,Jaipur,North,Premium,4.22,441,0.296,Web
+C0426,32,Female,Bengaluru,South,Loyal,3.59,715,0.261,Web
+C0427,37,Female,Pune,West,Regular,1.34,70,0.553,Mobile App
+C0428,24,Male,Jaipur,North,Regular,1.95,156,0.479,Mobile App
+C0429,35,Male,Pune,West,Regular,1.08,181,0.728,Web
+C0430,36,Female,Bengaluru,South,Budget,1.41,754,0.724,Mobile App
+C0431,21,Male,Surat,West,Budget,0.44,601,0.828,Mobile App
+C0432,36,Female,Noida,North,Premium,4.97,601,0.25,Store
+C0433,32,Male,Raipur,Central,Loyal,4.12,324,0.433,Web
+C0434,58,Female,Nagpur,West,Premium,4.99,658,0.302,Mobile App
+C0435,32,Male,Ranchi,East,Budget,1.35,99,0.904,Mobile App
+C0436,38,Male,Kolkata,East,Premium,2.7,863,0.414,Mobile App
+C0437,35,Male,Raipur,Central,Premium,3.63,522,0.433,Mobile App
+C0438,18,Female,Guwahati,East,Budget,0.79,332,0.861,Mobile App
+C0439,32,Male,Jaipur,North,Budget,0.72,154,0.848,Store
+C0440,33,Male,Noida,North,Budget,0.75,141,0.888,Web
+C0441,45,Female,Jaipur,North,Regular,3.12,482,0.406,Web
+C0442,33,Male,Coimbatore,South,Budget,1.16,494,0.885,Mobile App
+C0443,36,Female,Delhi,North,Regular,3.02,638,0.51,Mobile App
+C0444,35,Female,Nagpur,West,Budget,1.16,822,0.739,Mobile App
+C0445,39,Female,Kolkata,East,Premium,4.64,567,0.407,Mobile App
+C0446,18,Male,Chennai,South,Regular,1.25,859,0.486,Mobile App
+C0447,30,Female,Ahmedabad,West,Loyal,6.96,107,0.306,Mobile App
+C0448,18,Female,Bhubaneswar,East,Regular,1.72,40,0.414,Mobile App
+C0449,39,Male,Mumbai,West,Budget,1.23,340,0.845,Web
+C0450,36,Male,Kochi,South,Loyal,4.1,68,0.407,Web
+C0451,26,Female,Kolkata,East,Regular,1.54,852,0.696,Mobile App
+C0452,32,Male,Bengaluru,South,Premium,5.02,273,0.286,Store
+C0453,23,Female,Kochi,South,Regular,2.36,202,0.626,Mobile App
+C0454,18,Female,Bhopal,Central,Loyal,4.92,415,0.552,Web
+C0455,21,Male,Ahmedabad,West,Regular,1.77,359,0.538,Mobile App
+C0456,52,Male,Delhi,North,Premium,4.56,169,0.446,Mobile App
+C0457,29,Female,Bengaluru,South,Budget,0.7,606,0.923,Web
+C0458,39,Male,Raipur,Central,Regular,1.27,619,0.408,Mobile App
+C0459,30,Female,Delhi,North,Budget,1.41,713,0.851,Mobile App
+C0460,32,Male,Hyderabad,South,Budget,0.55,864,0.892,Mobile App
+C0461,27,Female,Patna,East,Regular,1.96,502,0.631,Mobile App
+C0462,43,Male,Raipur,Central,Loyal,6.57,223,0.37,Mobile App
+C0463,48,Male,Ranchi,East,Budget,1.48,568,0.7,Mobile App
+C0464,49,Male,Bhubaneswar,East,Regular,2.85,775,0.533,Mobile App
+C0465,32,Female,Gurgaon,North,Budget,1.04,220,0.889,Mobile App
+C0466,28,Male,Guwahati,East,Regular,1.21,719,0.559,Mobile App
+C0467,35,Male,Jabalpur,Central,Regular,2.95,730,0.607,Mobile App
+C0468,34,Male,Guwahati,East,Premium,3.73,589,0.268,Mobile App
+C0469,49,Male,Chennai,South,Regular,2.44,95,0.665,Mobile App
+C0470,30,Female,Bhubaneswar,East,Regular,2.22,651,0.573,Mobile App
+C0471,38,Male,Bhopal,Central,Regular,1.63,51,0.467,Mobile App
+C0472,37,Male,Indore,Central,Regular,2.23,873,0.661,Store
+C0473,41,Male,Coimbatore,South,Budget,1.1,553,0.947,Mobile App
+C0474,38,Male,Jaipur,North,Loyal,3.56,222,0.325,Web
+C0475,39,Male,Bhopal,Central,Budget,0.98,137,0.845,Web
+C0476,29,Male,Ranchi,East,Budget,1.15,334,0.769,Web
+C0477,48,Female,Guwahati,East,Regular,1.14,386,0.724,Mobile App
+C0478,38,Female,Pune,West,Budget,1.3,343,0.761,Mobile App
+C0479,36,Male,Bhopal,Central,Budget,0.71,479,0.776,Mobile App
+C0480,48,Female,Jabalpur,Central,Budget,1.03,823,0.922,Mobile App
+C0481,33,Female,Patna,East,Regular,2.59,402,0.608,Mobile App
+C0482,18,Male,Kochi,South,Regular,1.78,653,0.434,Mobile App
+C0483,22,Female,Patna,East,Premium,4.05,67,0.386,Web
+C0484,33,Female,Mumbai,West,Budget,1.06,870,0.688,Mobile App
+C0485,44,Male,Surat,West,Regular,2.63,250,0.712,Mobile App
+C0486,31,Other,Noida,North,Loyal,4.53,31,0.595,Mobile App
+C0487,29,Male,Guwahati,East,Budget,1.06,465,0.65,Web
+C0488,30,Female,Pune,West,Loyal,3.93,574,0.364,Mobile App
+C0489,24,Male,Indore,Central,Budget,0.87,90,0.692,Web
+C0490,27,Male,Kochi,South,Premium,4.54,267,0.309,Web
+C0491,25,Male,Raipur,Central,Budget,1.29,881,0.84,Mobile App
+C0492,35,Female,Guwahati,East,Premium,3.78,315,0.252,Web
+C0493,35,Female,Hyderabad,South,Budget,1.03,539,0.825,Mobile App
+C0494,36,Male,Jaipur,North,Regular,3.1,362,0.511,Mobile App
+C0495,29,Female,Ahmedabad,West,Budget,0.74,378,0.863,Mobile App
+C0496,35,Female,Surat,West,Budget,1.2,112,0.95,Store
+C0497,20,Male,Noida,North,Budget,0.89,184,0.775,Mobile App
+C0498,22,Male,Pune,West,Regular,1.25,468,0.491,Web
+C0499,18,Male,Kochi,South,Budget,0.58,380,0.816,Mobile App
+C0500,18,Female,Surat,West,Regular,3.16,799,0.414,Mobile App

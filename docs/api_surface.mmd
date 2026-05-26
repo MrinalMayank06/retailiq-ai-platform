@@ -1,0 +1,12 @@
+flowchart TD
+    ROOT[/ /] --> DOCS[/docs]
+    ROOT --> H[/health]
+    ROOT --> STATUS[/api/status]
+    ROOT --> DF[/api/demand-forecast]
+    ROOT --> AC[/api/anomaly-check]
+    ROOT --> AG[/api/agent]
+    ROOT --> LG[/api/logs]
+
+    AG --> SUPPORT[support intent]
+    AG --> SALES[sales intent]
+    AG --> ANALYTICS[analytics intent]

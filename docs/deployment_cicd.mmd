@@ -1,0 +1,7 @@
+flowchart LR
+    DEV[Developer Machine] --> PUSH[git push main]
+    PUSH --> GHA[GitHub Actions]
+    GHA --> PKG[Build Deployment Package]
+    PKG --> APP[Azure App Service]
+    APP --> LIVE[Live API Endpoints]
+    LIVE --> TEST[Swagger and Endpoint Validation]

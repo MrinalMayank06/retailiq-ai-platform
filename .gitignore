@@ -1,0 +1,50 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+deploy.zip
+retailiq-deploy.zip
+*.zip
+
+# Local processed data
+data/processed/*
+!data/processed/README.md
+
+# Old ChromaDB cache - not used in final runtime
+artifacts/knowledge/chroma_db/
+
+# Local cache folders
+.cache/
+hf_cache/
+models_cache/

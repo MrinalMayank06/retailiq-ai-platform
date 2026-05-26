@@ -1,0 +1,21 @@
+flowchart TD
+    A[product_details.csv] --> JOIN[Join and Feature Preparation]
+    B[customer_data.csv] --> JOIN
+    C[order_data.csv] --> JOIN
+
+    JOIN --> FE[Feature Engineering]
+    FE --> DEMAND[Demand Dataset]
+    FE --> ANOM[Anomaly Dataset]
+    FE --> CUST[Customer Segment Dataset]
+
+    DEMAND --> M1[Random Forest Regressor]
+    ANOM --> M2[Isolation Forest]
+    CUST --> M3[KMeans]
+
+    M1 --> A1[demand_model.joblib]
+    M2 --> A2[anomaly_model.joblib]
+    M3 --> A3[clustering_model.joblib]
+
+    M1 --> MET[training_metrics.json]
+    M2 --> MET
+    M3 --> MET

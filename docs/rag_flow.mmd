@@ -1,0 +1,20 @@
+sequenceDiagram
+    participant User
+    participant API as FastAPI
+    participant Agent as Support Agent
+    participant Embed as Azure Embeddings
+    participant Store as Local JSON Vector Store
+    participant LLM as Azure Chat
+    participant DB as MongoDB
+
+    User->>API: POST /api/agent (support)
+    API->>Agent: question
+    Agent->>Embed: generate query embedding
+    Embed-->>Agent: embedding vector
+    Agent->>Store: similarity search
+    Store-->>Agent: top relevant chunks
+    Agent->>LLM: question + retrieved context
+    LLM-->>Agent: grounded answer
+    Agent->>DB: save chat log
+    Agent-->>API: answer + sources
+    API-->>User: JSON response

@@ -1,0 +1,54 @@
+{
+    "trained_at": "2026-05-26T07:44:47.577671",
+    "rows_master": 5000,
+    "rows_demand": 4639,
+    "rows_anomaly": 5000,
+    "rows_customers": 482,
+    "models_saved": [
+        "D:\\sprint proj\\RetailIQ-AI-Platform\\artifacts\\models\\demand_model.joblib",
+        "D:\\sprint proj\\RetailIQ-AI-Platform\\artifacts\\models\\anomaly_model.joblib",
+        "D:\\sprint proj\\RetailIQ-AI-Platform\\artifacts\\models\\clustering_model.joblib"
+    ],
+    "curated_files_saved": [
+        "D:\\sprint proj\\RetailIQ-AI-Platform\\data\\curated\\master_sales_dataset.csv",
+        "D:\\sprint proj\\RetailIQ-AI-Platform\\data\\curated\\demand_dataset.csv",
+        "D:\\sprint proj\\RetailIQ-AI-Platform\\data\\curated\\anomaly_dataset.csv",
+        "D:\\sprint proj\\RetailIQ-AI-Platform\\data\\curated\\customer_segments.csv"
+    ],
+    "metrics_file": "D:\\sprint proj\\RetailIQ-AI-Platform\\artifacts\\metrics\\training_metrics.json",
+    "metrics": {
+        "demand_forecasting": {
+            "model_type": "regression",
+            "rows_total": 4639,
+            "rows_train": 3711,
+            "rows_test": 928,
+            "r2_score": 0.2586331786726257,
+            "mae": 1.4666128710924933,
+            "mse": 9.70375947022888,
+            "rmse": 3.115085788582536
+        },
+        "anomaly_detection": {
+            "model_type": "unsupervised_anomaly_detection",
+            "rows_total": 5000,
+            "normal_count": 4750,
+            "anomaly_count": 250,
+            "anomaly_rate": 0.05,
+            "label_column": "anomaly_flag",
+            "accuracy": 0.9572,
+            "precision": 0.568,
+            "recall": 0.5725806451612904,
+            "f1_score": 0.570281124497992
+        },
+        "customer_clustering": {
+            "model_type": "clustering",
+            "rows_total": 482,
+            "n_clusters": 3,
+            "cluster_distribution": {
+                "0": 168,
+                "1": 306,
+                "2": 8
+            },
+            "silhouette_score": 0.3560115582684253
+        }
+    }
+}

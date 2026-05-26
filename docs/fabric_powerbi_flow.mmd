@@ -1,0 +1,8 @@
+flowchart LR
+    CSV[Local CSV Files] --> LAKE[Fabric Lakehouse Files]
+    LAKE --> NOTE[PySpark Notebook]
+    NOTE --> STAGE[Staged Tables / Files]
+    NOTE --> CUR[Curated Tables]
+    CUR --> SEM[Semantic Model]
+    SEM --> DAX[DAX Measures]
+    DAX --> REPORT[Power BI Report Pages]

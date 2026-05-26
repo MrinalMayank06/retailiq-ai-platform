@@ -1,0 +1,33 @@
+flowchart TD
+    U[User / Evaluator] --> APP[Azure App Service]
+    APP --> API[FastAPI Backend]
+
+    API --> HEALTH[Health and Status Endpoints]
+    API --> ML[ML Inference Layer]
+    API --> AG[Agent Layer]
+    API --> LOGS[(MongoDB Atlas)]
+    API --> MCP[MCP Orchestrator]
+
+    ML --> DF[Demand Forecast Model]
+    ML --> AD[Anomaly Detection Model]
+    ML --> CS[Customer Segmentation Model]
+
+    AG --> SA[Support Agent]
+    AG --> SLA[Sales Agent]
+    AG --> ANA[Analytics Agent]
+
+    SA --> STORE[Local JSON Vector Store]
+    STORE --> EMB[Azure Embeddings\ntext-embedding-3-large]
+    SA --> CHAT[Azure Chat\ngpt-oss-120b]
+    SLA --> CHAT
+    ANA --> CHAT
+
+    MCP --> T1[Demand Forecast Tool]
+    MCP --> T2[Anomaly Detection Tool]
+    MCP --> T3[Customer Segment Tool]
+    MCP --> T4[Dashboard Metrics Tool]
+    MCP --> T5[Product Search Tool]
+    MCP --> T6[Rebuild Product Knowledge Tool]
+
+    FAB[Microsoft Fabric Proof] --> CUR[Curated Outputs]
+    CUR --> PBI[Power BI Reports]

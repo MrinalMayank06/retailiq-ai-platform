@@ -1,0 +1,16 @@
+flowchart LR
+    RAW[Raw CSV Files] --> PREP[Cleaning and Feature Engineering]
+    PREP --> CURATED[Curated Datasets]
+    CURATED --> TRAIN[Training Pipeline]
+    TRAIN --> MODELS[Saved Model Artifacts]
+    CURATED --> KNOW[Knowledge Preparation]
+    KNOW --> EMB[Azure Embeddings]
+    EMB --> STORE[Local JSON Vector Store]
+    MODELS --> API[FastAPI Backend]
+    STORE --> API
+    API --> AGENTS[Support, Sales, Analytics Agents]
+    API --> LOGS[(MongoDB)]
+    API --> AZURE[Azure App Service]
+    CURATED --> FABRIC[Microsoft Fabric]
+    FABRIC --> SEM[Semantic Model]
+    SEM --> PBI[Power BI Report]

@@ -1,0 +1,24 @@
+flowchart TD
+    REQ[Unified Agent Request] --> INT[Intent Router]
+    INT --> SUP[Support Agent]
+    INT --> SAL[Sales Agent]
+    INT --> ANA[Analytics Agent]
+
+    SUP --> MCP[MCP Tool Layer]
+    SAL --> MCP
+    ANA --> MCP
+
+    MCP --> TOOL1[Demand Forecast Tool]
+    MCP --> TOOL2[Anomaly Detection Tool]
+    MCP --> TOOL3[Customer Segment Tool]
+    MCP --> TOOL4[Dashboard Metrics Tool]
+    MCP --> TOOL5[Product Search Tool]
+    MCP --> TOOL6[Rebuild Knowledge Tool]
+
+    SUP --> RET[Retrieval Layer]
+    RET --> VEC[Local Vector Store]
+    RET --> EMB[Azure Embeddings]
+
+    SUP --> CHAT[Azure Chat]
+    SAL --> CHAT
+    ANA --> CHAT
