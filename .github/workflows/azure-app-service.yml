@@ -1,0 +1,83 @@
+name: RetailIQ Azure App Service CI CD
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+
+      - name: Show latest commit
+        run: |
+          git log -1 --oneline
+          git branch --show-current
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run tests
+        run: |
+          python -m pytest -q
+
+      - name: Verify project structure
+        run: |
+          echo "Root files"
+          ls -la
+          echo "Source folder"
+          ls -la src
+          echo "API folder"
+          ls -la src/api
+          echo "Knowledge artifact"
+          ls -lh artifacts/knowledge/product_knowledge_embeddings.json || true
+          echo "Model artifacts"
+          ls -lh artifacts/models || true
+          echo "Curated data"
+          ls -lh data/curated || true
+
+      - name: Create deployment package
+        run: |
+          zip -r retailiq-deploy.zip . \
+            -x ".git/*" \
+            -x ".github/*" \
+            -x ".venv/*" \
+            -x "venv/*" \
+            -x "env/*" \
+            -x "__pycache__/*" \
+            -x "*.pyc" \
+            -x ".env" \
+            -x ".env.*" \
+            -x ".pytest_cache/*" \
+            -x "artifacts/knowledge/chroma_db/*" \
+            -x "hf_cache/*" \
+            -x ".cache/*" \
+            -x "models_cache/*"
+
+      - name: Verify deployment package
+        run: |
+          unzip -l retailiq-deploy.zip | grep "src/api/main.py"
+          unzip -l retailiq-deploy.zip | grep "src/common/settings.py"
+          unzip -l retailiq-deploy.zip | grep "artifacts/knowledge/product_knowledge_embeddings.json"
+
+      - name: Deploy to Azure App Service
+        uses: azure/webapps-deploy@v3
+        with:
+          app-name: retailiq-ai-platform
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+          package: retailiq-deploy.zip
