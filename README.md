@@ -1,13 +1,14 @@
 # RetailIQ AI Platform
 
-> **Smart Retail AI Platform with FastAPI, Machine Learning, Azure Chat, Azure Embeddings, RAG-style support retrieval, MCP-style agent orchestration, MongoDB logging, Microsoft Fabric proof, Power BI reporting, Azure App Service deployment, and GitHub Actions CI/CD.**
+> **A smart retail backend platform for demand forecasting, anomaly detection, product support, customer insights, reporting, and cloud deployment.**
 
-RetailIQ AI Platform is a backend-first retail intelligence system built to support forecasting, anomaly monitoring, product support, customer analysis, business reporting, and agent-driven decision support from a single connected API layer.
+RetailIQ AI Platform is built to solve common retail decision-making problems using data, machine learning, and API-based automation. The system works with product, customer, and order data to prepare clean business datasets, train ML models, and expose useful retail intelligence through a FastAPI backend.
 
-This README is intentionally self-contained. The architecture diagrams are embedded directly as Mermaid blocks so they render on the GitHub repository homepage. Separate `.mmd` files are optional and are not required for understanding the project.
+The project includes demand forecasting for product planning, anomaly detection for unusual transactions, customer segmentation for business analysis, and an AI-assisted support flow that answers product-related questions using stored product knowledge. It also includes sales and analytics agents that convert model outputs and dashboard metrics into simple business explanations.
+
+The backend is deployed on Azure App Service and connected with MongoDB logging, Power BI reporting, Microsoft Fabric proof, and GitHub Actions CI/CD. This README explains the project structure, data ingestion flow, ML models, API endpoints, agent workflow, deployment setup, and evaluation flow.
 
 ---
-
 ## Table of contents
 
 1. [Project objective](#1-project-objective)
