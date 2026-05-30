@@ -1179,141 +1179,72 @@ The expected result is that all API tests pass before pushing or deploying.
 
 ---
 
-## 28. Evaluation walkthrough
+## 28. Security and configuration
 
-A clear evaluation sequence is:
+The project keeps runtime configuration separate from source code. Local secrets are stored in a `.env` file, while cloud runtime values are managed through Azure App Service environment variables.
 
-1. Explain the business problem.
-2. Show the end-to-end architecture diagram.
-3. Explain raw, curated, and artifact folders.
-4. Show model artifacts and ML role.
-5. Explain Azure chat and embedding deployments.
-6. Explain support RAG flow.
-7. Explain sales and analytics agents.
-8. Explain MCP-style tool orchestration.
-9. Open live Swagger.
-10. Run `/health`.
-11. Run `/api/status`.
-12. Run `/api/demand-forecast`.
-13. Run `/api/anomaly-check`.
-14. Run `/api/agent` for support/sales/analytics.
-15. Run `/api/logs`.
-16. Show Fabric workspace and semantic model.
-17. Show Power BI report pages.
-18. Show GitHub Actions successful deployments.
-19. Discuss security and roadmap.
+### Local configuration
 
----
+- `.env` is used only for local development.
+- `.env` is excluded from Git using `.gitignore`.
+- API keys, database credentials, and connection strings are not hardcoded in the source code.
 
-## 29. Security considerations
+### Cloud configuration
 
-### Local security
+On Azure App Service, the required values are added as application settings, including:
 
-- store secrets in `.env`
-- keep `.env` out of Git
-- do not hardcode keys in source code
-- rotate any accidentally exposed key immediately
+- MongoDB connection string
+- Azure chat model endpoint and key
+- Azure embedding model endpoint and key
+- product knowledge store path
+- application runtime settings
 
-### Azure security
-
-- store runtime values in App Service environment variables
-- use Azure Key Vault as a recommended future improvement
-- use managed identity in future for stronger access control
+This keeps the same codebase usable in both local and cloud environments without changing the source files.
 
 ### Sensitive values
+
+The following values should always be treated as private:
 
 - `MONGODB_URI`
 - `AZURE_OPENAI_API_KEY`
 - `AZURE_OPENAI_EMBEDDING_API_KEY`
 
-### If a secret is exposed
-
-1. rotate Azure chat key
-2. rotate Azure embedding key
-3. rotate MongoDB password / URI
-4. update local `.env`
-5. update Azure App Service settings
-6. restart the web app
+For a stronger production setup, Azure Key Vault and managed identity can be added later.
 
 ---
 
-## 30. Known legacy naming and cleanup notes
+## 29. Future improvements
 
-### 30.1 Legacy script name
+The current version covers the main project requirements and provides a working end-to-end retail intelligence flow. Some future improvements can make the system more scalable and production-ready.
 
-The file:
+### Model improvements
 
-```text
-scripts/build_chroma_store.py
-```
+- add more historical data for better demand forecasting
+- include seasonality, holidays, and store-level trends
+- improve anomaly detection with richer transaction features
+- monitor model performance after deployment
 
-is retained for compatibility with the earlier project flow. The final intended function is building the local JSON vector store using Azure embeddings.
+### Agent improvements
 
-### 30.2 Old artifacts
+- improve exact product matching in support retrieval
+- add more product knowledge sources
+- make sales and analytics responses shorter and more consistent
+- add conversation history for follow-up questions
 
-If present locally, the following should not be treated as final active runtime dependencies:
+### Platform improvements
 
-- old Chroma persistence folder
-- old TF-IDF artifacts
-- `__pycache__` folders
-- temporary cache folders
-
-### 30.3 Why Mermaid diagrams are inside README
-
-GitHub renders Mermaid diagrams on the repository homepage only when they are embedded directly inside `README.md`. Keeping diagrams only as `.mmd` files under `docs/` does not automatically render them on the repo homepage.
-
-This README therefore embeds the important diagrams directly.
-
----
-
-## 31. Roadmap
-
-### Phase 1 - Current delivered platform
-
-- demand forecasting
-- anomaly monitoring
-- support RAG
-- sales and analytics agents
-- MongoDB logs
-- Azure deployment
-- Fabric and Power BI proof
-
-### Phase 2 - Intelligence expansion
-
-- stronger time-series features
-- deeper anomaly explanation
-- larger product knowledge base
-- automatic report refresh
-- richer customer behavior features
-
-### Phase 3 - Production hardening
-
-- authentication and authorization
-- Azure Key Vault integration
-- managed identity
-- Application Insights
-- structured observability
-- CI/CD testing gate
-- scheduled retraining
-- multi-store support
+- add user authentication
+- add role-based access for admin and business users
+- connect Azure Key Vault for secret management
+- add Application Insights for monitoring
+- schedule automatic retraining and report refresh
 
 ---
 
-## 32. Final conclusion
+## 30. Final conclusion
 
-RetailIQ AI Platform is a connected Smart Retail Assistant that combines:
+RetailIQ AI Platform brings together retail data processing, machine learning, product support, analytics, reporting, and cloud deployment in one backend system.
 
-- machine learning
-- retrieval-augmented generation
-- multi-agent orchestration
-- MongoDB logging
-- FastAPI APIs
-- Azure-hosted chat and embeddings
-- Microsoft Fabric data engineering proof
-- Power BI reporting
-- Azure App Service deployment
-- GitHub Actions CI/CD
+The platform can forecast product demand, detect unusual transactions, answer product-related support questions, generate sales and analytics insights, store activity logs, and support dashboard reporting. It uses FastAPI for APIs, trained machine learning models for predictions, Azure AI for chat and embeddings, MongoDB for logging, and Azure App Service with GitHub Actions for deployment.
 
-It helps retail teams forecast demand, detect unusual transactions, answer product questions, interpret business performance, and review operational logs from one connected platform.
-
-The project is best presented as a strong production-inspired retail intelligence platform that demonstrates how modern Data + AI engineering components can work together in a realistic end-to-end system.
+Overall, this project shows how different Data and AI components can be connected to solve practical retail use cases in a structured and working application.
